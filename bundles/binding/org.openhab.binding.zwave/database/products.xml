@@ -456,10 +456,6 @@
 			</Reference>
 			<Reference>
 				<Type>0002</Type>
-				<Id>0001</Id>
-			</Reference>
-			<Reference>
-				<Type>0002</Type>
 				<Id>0002</Id>
 			</Reference>
 			<Model>HSM02</Model>
@@ -467,6 +463,16 @@
 			<Label lang="de">Tür/Fenster Kontakt</Label>
 			<ConfigFile>everspring/hsm02.xml</ConfigFile>
 		</Product>
+		<Product>
+			<Reference>
+				<Type>0002</Type>
+				<Id>0001</Id>
+			</Reference>
+			<Model>SM103</Model>
+			<Label lang="en">Door/Window Contact</Label>
+			<Label lang="de">Tür/Fenster Kontakt</Label>
+			<ConfigFile>everspring/sm103.xml</ConfigFile>
+		</Product>		
 		<Product>
 			<Reference>
 				<Type>000C</Type>
@@ -1438,6 +1444,10 @@
 				<Type>0301</Type>
 				<Id>1001</Id>
 			</Reference>
+			<Reference>
+				<Type>0302</Type>
+				<Id>1000</Id>
+			</Reference>
 			<Model>FGRM222</Model>
 			<Label lang="en">Roller Shutter</Label>
 			<ConfigFile>fibaro/fgrm222.xml</ConfigFile>
@@ -1656,6 +1666,10 @@
 			<Reference>
 				<Type>0900</Type>
 				<Id>4000</Id>
+			</Reference>
+			<Reference>
+				<Type>3000</Type>
+				<Id>900</Id>
 			</Reference>
 			<Model>FGRGBW</Model>
 			<Label lang="en">Fibaro RGBW Controller</Label>
@@ -2486,6 +2500,15 @@
 		<Product>
 			<Reference>
 				<Type>2</Type>
+				<Id>53</Id>
+			</Reference>
+			<Model>ZMNHND</Model>
+			<Label lang="en">Flush 1D relay</Label>
+			<ConfigFile>qubino/zmnhnd.xml</ConfigFile>
+		</Product>
+		<Product>
+			<Reference>
+				<Type>2</Type>
 				<Id>1</Id>
 			</Reference>
 			<Model>ZMNHBA</Model>
@@ -2720,7 +2743,7 @@
 				<Id>1</Id>
 			</Reference>
 			<Model>05438</Model>
-			<Label lang="en">Outdoor Wall Plug Switch</Label>
+			<Label lang="en">Indoor/Outdoor Wall Plug Switch</Label>
 			<ConfigFile>popp/05438.xml</ConfigFile>
 		</Product>
 		<Product>
